@@ -1,0 +1,27 @@
+.product__carousel--image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    display: none !important;
+}
+
+
+#similarwrapper{
+    background-color: white;
+    border-radius: 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+price {
+    font-size: 50px;
+    color: white;
+}

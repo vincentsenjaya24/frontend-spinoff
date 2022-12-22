@@ -1,0 +1,30 @@
+.signup__image--container {
+    background-image: url(https://images.solecollector.com/complex/image/upload/laglii7tvhu8ynxkqgbe.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://media.gq.com/photos/6296bb54b3f45094bce76e7b/master/w_1600%2Cc_limit/TS_GPS_FINAL_AD_original.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */

@@ -1,0 +1,39 @@
+.images-preview-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100px, 100%), 1fr));
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.image-preview {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-preview i,
+.remove-img-spinner {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.image-preview i:hover {
+    color: orange;
+}
+
+.new-product__image--container {
+    background-image: url(https://media.voguebusiness.com/photos/60140c47d3d19b7432dd2ea9/2:3/w_2560%2Cc_limit/sneakers-sustainability-voguebus-janine-abrenilla-jan-21-story.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
